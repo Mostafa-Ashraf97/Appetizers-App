@@ -47,6 +47,9 @@ struct AccountView: View {
             .onAppear {
                 viewModel.retrieveData()
             }
+            .alert(item: $viewModel.alertItem) { alert in
+                Alert(title: alert.title, message: alert.message, dismissButton: alert.dismissButton)
+            }
             
         }
     }

@@ -13,6 +13,7 @@ class AppetizersListViewModel:ObservableObject {
     @Published var isLoading = false
     @Published var isShowingDetil = false
     @Published var selectedAppetizer: Appetizer?
+    @Published var alertItem: AlertItem?
     
     func getAppetizers() {
         isLoading = true

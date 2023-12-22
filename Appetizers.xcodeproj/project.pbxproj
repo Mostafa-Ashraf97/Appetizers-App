@@ -20,6 +20,7 @@
 		0090EF842B2E58B900FAD20B /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0090EF832B2E58B900FAD20B /* AppetizerDetailView.swift */; };
 		0090EF872B2FA49E00FAD20B /* AppetizerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0090EF862B2FA49E00FAD20B /* AppetizerButton.swift */; };
 		0090EF892B2FA56600FAD20B /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0090EF882B2FA56600FAD20B /* XDismissButton.swift */; };
+		009ADD842B361D73003D4C3E /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009ADD832B361D73003D4C3E /* Alert.swift */; };
 		00BABF152B338178001A28EE /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BABF142B338178001A28EE /* EmptyStateView.swift */; };
 		00BABF172B3392B7001A28EE /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BABF162B3392B7001A28EE /* Order.swift */; };
 		00BABF192B339AD7001A28EE /* StandardButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BABF182B339AD7001A28EE /* StandardButtonStyle.swift */; };
@@ -66,6 +67,7 @@
 		0090EF832B2E58B900FAD20B /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		0090EF862B2FA49E00FAD20B /* AppetizerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerButton.swift; sourceTree = "<group>"; };
 		0090EF882B2FA56600FAD20B /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		009ADD832B361D73003D4C3E /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		00BABF142B338178001A28EE /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
 		00BABF162B3392B7001A28EE /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		00BABF182B339AD7001A28EE /* StandardButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardButtonStyle.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			children = (
 				007D337A2B32226D001FCEC7 /* String+Ext.swift */,
 				007D337C2B3223F4001FCEC7 /* Color+Ext.swift */,
+				009ADD832B361D73003D4C3E /* Alert.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -405,6 +408,7 @@
 				0090EF772B278B9F00FAD20B /* AppetizersListViewModel.swift in Sources */,
 				0090EF612B27793F00FAD20B /* AppetizerListCell.swift in Sources */,
 				007D337D2B3223F4001FCEC7 /* Color+Ext.swift in Sources */,
+				009ADD842B361D73003D4C3E /* Alert.swift in Sources */,
 				0090EF7B2B29026C00FAD20B /* RemoteImageView.swift in Sources */,
 				0090EF792B278F7300FAD20B /* LoadingView.swift in Sources */,
 				00DDFB8A2B2524C40024FD8B /* AccountView.swift in Sources */,

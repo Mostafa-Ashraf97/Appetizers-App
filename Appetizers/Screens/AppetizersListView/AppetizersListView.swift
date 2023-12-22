@@ -27,13 +27,13 @@ struct AppetizersListView: View {
                 .navigationTitle("Appetizers List")
                 .listStyle(.plain)
                 .disabled(viewModel.isShowingDetil)
-
+                
             }
             .onAppear() {
                 viewModel.getAppetizers()
             }
             .blur(radius: viewModel.isShowingDetil ? 20 : 0)
-
+            
             
             if viewModel.isShowingDetil {
                 AppetizerDetailView(appetizer: viewModel.selectedAppetizer ?? MockData.sampleAppetizer, isShowingDetail: $viewModel.isShowingDetil)
@@ -43,8 +43,11 @@ struct AppetizersListView: View {
                 activityIndicator()
             }
         }
+        .alert(item: $viewModel.alertItem) { alertItem in
+            Alert(title: alertItem.title, message: alertItem.message, dismissButton: alertItem.dismissButton)
+        }
+        
     }
-    
     
 }
 
