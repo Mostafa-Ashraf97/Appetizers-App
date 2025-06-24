@@ -4,6 +4,8 @@ It is a native iOS mobile application that allows the user to navigate through m
 You can add or delete any order you like in the order tab.
 You can save your profile data and information and access them again the next time you open the app.
 
+---
+
 # Technologies
 I developed this app using MVVM Architecture pattern and using:
 
